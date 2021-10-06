@@ -1,6 +1,10 @@
 # C-solution
 Collection of C programs
 
+![logo-hacktoberfest-2](https://user-images.githubusercontent.com/91674834/136263478-f37c8a4e-2659-4ccd-b348-a8bc453d5b39.jpg)
+
+
+
 ## Guidelines for contribution to this repository:
 
 You can contribute to this simple questions/solutions in following ways:
@@ -28,7 +32,7 @@ Different types of contribution practices for this repository -
 ##### Note: Please do not comment on an issue labelled as "WithSolution". This issue is reserved for its author only!
   
   
-#### 3) Add a question
+#### 2) Add a question
 - Steps - <br>
   Step a) Click on Issues tab <br>
   Step b) Click on New Issue button <br>
@@ -38,6 +42,16 @@ Different types of contribution practices for this repository -
   Step f) Add a comment after succeffully creating the issue: "Please add label 'SolutionRequired'!"
   
   ### NOTE - Adding question and/or solution of any ongoing live challenges may lead to permanent ban from repository
+  
+#### 2) Add a solution
+- Steps - <br>
+  Step a) Click on Issues tab <br>
+  Step b) Click on issue you would like to work on <br>
+  Step c) Add a comment: I would like to work on this issue.
+  
+  You can workout the solution and generate Pull Request.
+  
+  # Follow the ISSUE_TEMPLATE and PR_TEMPLATE before genrating issues and PRs!
   
 <br>
 In general, we follow the "fork-and-pull" Git workflow.
