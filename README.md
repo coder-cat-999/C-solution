@@ -43,15 +43,16 @@ Different types of contribution practices for this repository -
   
   ### NOTE - Adding question and/or solution of any ongoing live challenges may lead to permanent ban from repository
   
-#### 2) Add a solution
+#### 3) Add a solution
 - Steps - <br>
   Step a) Click on Issues tab <br>
   Step b) Click on issue you would like to work on <br>
-  Step c) Add a comment: I would like to work on this issue.
+  Step c) Add a comment: I would like to work on this issue,Kindly assign it to me.
   
-  You can workout the solution and generate Pull Request.
+  You can workout the solution and generate Pull Request once you are assigned the issue.
   
   # Follow the ISSUE_TEMPLATE and PR_TEMPLATE before genrating issues and PRs!
+  # Please Note, Its First Come First Serve!
   
 <br>
 In general, we follow the "fork-and-pull" Git workflow.
