@@ -12,7 +12,7 @@ void main ()
       switch(choice)
       {
            case 1:
-                 printf("Input radious of the circle : ");
+                 printf("Input radius of the circle : ");
                  scanf("%d",&r);
                  area=3.14*r*r;
                  break;
