@@ -1,12 +1,15 @@
 #include<stdio.h>
 
 int main() {
-    int a[200], n, times, temp;
-    a[0] = 1;
-    times = 0;
+    int n;
     printf("Enter the number to find factorial: ");
     scanf("%d", &n);
- 
+
+    //logic
+    int a[200], times, temp;
+    a[0] = 1;
+    times = 0;
+
     for(; n>=2; n--) {
         temp = 0;
         for(int i = 0; i<=times; i++) {
@@ -21,7 +24,7 @@ int main() {
         }
     }
 
-    //print
+    //print result
     for(int i = times; i>=0; i--)
         printf("%d", a[i]);
 
