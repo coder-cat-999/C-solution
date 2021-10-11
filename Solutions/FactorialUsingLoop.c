@@ -1,4 +1,6 @@
 #include<stdio.h>
+// Maximum number of digits in output
+#define MAX 1000
 
 int main() {
     int n;
@@ -6,7 +8,7 @@ int main() {
     scanf("%d", &n);
 
     //logic
-    int a[200], times, temp;
+    int a[MAX], times, temp;
     a[0] = 1;
     times = 0;
 
