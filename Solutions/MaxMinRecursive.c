@@ -2,25 +2,21 @@
 #include <stdlib.h>
 
 // Recursive Function for Finding Minimum
-int min_rec(int a[], int n, int x, int i)
+int min_rec(int a[], int n)
 {
-	if (i == n)
-		return x;
-	if (a[i+1] < x)
-		return min_rec(a, n, a[i+1], i+1);
-	else
-		return min_rec(a, n, a[i], i+1);
+	 if (n == 1)
+        return a[0];
+     int min = (a[n-1] > min_rec(a, n-1)) ? min_rec(a, n-1) : a[n-1];
+     return min;
 }
 
 // Recursive Function for Finding Maximum
-int max_rec(int a[], int n, int x, int i)
+int max_rec(int a[], int n)
 {
-	if (i == n)
-		return x;
-	if (a[i+1] > x)
-		return max_rec(a, n, a[i+1], i+1);
-	else
-		return max_rec(a, n, a[i], i+1);
+	if (n == 1)
+        return a[0];
+    int max = (a[n-1] > max_rec(a, n-1)) ? a[n-1] : max_rec(a, n-1);
+    return max;
 }
 
 int main()
@@ -34,8 +30,8 @@ int main()
 	for (int i = 0; i < n; i++)
 		scanf("%d", &arr[i]);
 
-	int min = min_rec(arr, n, arr[0], 0);
-	int max = max_rec(arr, n, arr[0], 0);
+	int min = min_rec(arr, n);
+	int max = max_rec(arr, n);
 
 	printf("total number of elements in array: %d\n",n);
 	for (int i = 0; i < n; i++)
