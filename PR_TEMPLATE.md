@@ -1,5 +1,5 @@
-# Issue Id you have worked upon -
-Your answer
+### Issue Id you have worked upon - 
+write your answer here
 
-# Briefly explain your program logic -
-Your answer
+### Briefly explain your program logic - 
+write your answer here
